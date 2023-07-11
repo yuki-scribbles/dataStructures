@@ -1,5 +1,4 @@
 Name: Trina Dang
-LSU ID: 899459534
 
 Notes for dependencies:
 -Node class needed for linked list
