@@ -15,6 +15,12 @@ namespace dataStructures {
             numElements = 0;
         }
 
+        public dynamicArray(Atype[] arr) {
+            this.array = arr;
+            this.size = arr.Length;
+            numElements = arr.Length;
+        }
+
         /* @Param item: data of new item
          * @param pos: position you want to add item at. If there's already an item there, it'll push the item and everything after it +1 position.
          */
